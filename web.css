@@ -26,6 +26,7 @@ li {
 
 li.home {
   font-size: 20px;
+  font-style: strong;
 }
 
 .parent {
