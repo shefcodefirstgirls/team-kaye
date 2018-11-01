@@ -7,7 +7,7 @@ header {
   font-family: 'Lobster', cursive;
 }
 a {
-  color: #127cd4;
+  color: navy;
 
 }
 
@@ -25,11 +25,11 @@ margin: -700px, auto;
 
 li {
   display: inline;
- padding: 0px 10px 0px 10px;
- background-image: url("https://i.imgur.com/pXbTjxY.jpg");
+ padding: 20px 10px 20px 10px;
+ background-image: url("https://i.imgur.com/TthFy7I.jpg");
  background-size: cover;
  background-position: center;
-  position: relative;
+
 
 }
 li.home {
