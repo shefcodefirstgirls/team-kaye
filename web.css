@@ -4,7 +4,7 @@ header {
   background-size: cover;
   color: #127cd4;
   font-size: 40px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 a {
   color: navy;
@@ -15,10 +15,12 @@ img {
 margin: -7000px, -700px;
 margin: 100px, auto;
 border-radius: -500px;
+text-align: center;
 }
 
 body {
-margin: -700px, auto;
+text-align: center;
+
 }
 
 
