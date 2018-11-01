@@ -1,29 +1,16 @@
 header {
   text-align: center;
-  /*background: #b0e0e6;*/
   background-size: cover;
-  color: #127cd4;
   font-size: 15px;
   font-family: 'Roboto Mono', cursive;
 }
 a {
   color: navy;
-
-}
-
-img {
-margin: -7000px, -700px;
-margin: 100px, auto;
-border-radius: -500px;
-text-align: center;
 }
 
 body {
 text-align: center;
-
 }
-
-
 
 li {
   display: inline;
@@ -34,17 +21,38 @@ li {
  position:relative;
  border-width: thin;
  border-radius: 10px;
-
-
 }
+
 li.home {
   font-size: 20px;
 }
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 350px;
+  left: 950px;
+  size: 20px;
+}
+
+
+
+
+
 footer {
 display: center;
 text-align: center;
 background-size: cover;
- margin: 100px, auto;
+margin: 100px, auto;
 border-radius: 500px;
 padding: 100px, 100px;
 }
