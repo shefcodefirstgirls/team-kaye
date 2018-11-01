@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  background: #b0e0e6;
+  /*background: #b0e0e6;*/
   background-size: cover;
   color: #127cd4;
   font-size: 40px;
@@ -22,16 +22,15 @@ margin: -700px, auto;
 }
 
 
-/*.mapp {
-background-size: cover;
-display: center;
-margin: -700px;
-}*/
-
 
 li {
   display: inline;
  padding: 0px 10px 0px 10px;
+ background-image: url("https://i.imgur.com/pXbTjxY.jpg");
+ background-size: cover;
+ background-position: center;
+  position: relative;
+
 }
 li.home {
   font-size: 50px;
