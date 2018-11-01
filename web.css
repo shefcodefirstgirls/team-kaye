@@ -12,6 +12,7 @@ body {
 text-align: center;
 }
 
+
 li {
   display: inline;
  padding: 10px 10px 10px 10px;
@@ -37,22 +38,28 @@ li.home {
   top: 0;
   left: 0;
 }
-.image2 {
+.singapore {
   position: absolute;
   top: 350px;
   left: 950px;
-  size: 20px;
+  }
+
+.vietnam {
+  position: absolute;
+  top: 315px;
+  left: 965px;
+}
+
+.Switzerland {
+position: absolute;
+top: 200px;
+left: 640px;
+
 }
 
 
 
 
-
 footer {
-display: center;
 text-align: center;
-background-size: cover;
-margin: 100px, auto;
-border-radius: 500px;
-padding: 100px, 100px;
 }
