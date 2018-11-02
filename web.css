@@ -1,66 +1,48 @@
 header {
   text-align: center;
+  background: #b0e0e6;
   background-size: cover;
-  font-size: 15px;
-  font-family: 'Roboto Mono', cursive;
+  color: #127cd4;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
 }
 a {
-  color: navy;
-}
+  color: #127cd4;
 
+}
 body {
 text-align: center;
+       background-size: cover;
 }
+img {
+background-size: cover;
+border-radius: 100px;
+padding: 100px,100px,100px,100px;
+display: center;
+margin: 100px, auto;
+}
+ul {
+  padding: 10px;
 
-
+}
 li {
   display: inline;
- padding: 10px 10px 10px 10px;
- background-image: url("https://i.imgur.com/Fdnnrxj.jpg");
- background-size:auto;
- background-position: center;
- position:relative;
- border-width: thin;
- border-radius: 10px;
+  padding: 0px 10px 0px 10px;
 }
-
 li.home {
-  font-size: 20px;
-  font-style: strong;
+  font-size: 50px;
 }
-
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.singapore {
-  position: absolute;
-  top: 350px;
-  left: 950px;
-  }
-
-.vietnam {
-  position: absolute;
-  top: 315px;
-  left: 965px;
-}
-
-.Switzerland {
-position: absolute;
-top: 200px;
-left: 640px;
-
-}
-
-
-
-
 footer {
-text-align: center;
+display: left;
+background-size: cover;
+ margin: 100px, auto;
+border-radius: 500px;
+padding: 100px, 100px;
+}
+
+figure{
+  display:inline;
+}
+figcaption{
+  text-align:center;
 }
