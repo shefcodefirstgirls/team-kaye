@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#directions {
+  background-color: #6FE87A;
+  padding: 10px;
+}
+
+header {
+  padding: 15px;
+  font-style: strong;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto Mono', cursive;
+  background: url(Switzerland_Houses.jpg);
+  background-position: 1% 30%;
+  background-repeat: no-repeat;
+}
+
+/* Styling the Header*/
+navigation {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto Mono', cursive;
+}
+
+a {
+  color: navy;
+}
+
+body {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  background-image: url("https://i.imgur.com/Fdnnrxj.jpg");
+  background-size: auto;
+  background-position: center;
+  border-width: thin;
+  border-radius: 10px;
+}
+
+li.home {
+  font-size: 20px;
+  font-style: strong;
+}
+
+  .parent{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .singapore {
+    position: absolute;
+    top: 350px;
+    left: 950px;
+  }
+
+  .Vietnam {
+    position: absolute;
+    top: 315px;
+    left: 965px;
+  }
+
+  .Switzerland {
+    position: absolute;
+    top: 200px;
+    left: 640px;
+  }
+
+  figure{
+    display:inline-block;
+  }
+  figcaption{
+    text-align: center;
+  }
+
+
+/* Creates two boxes that size next to one another*/
+nav {
+  float: left;
+  width: 50%;
+  background: #C188E5;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: "white";
+  border-width: thick;
+  border-radius: 10px;
+  border-color: #6FE8DD;
+}
+
+/* Clears the floats after the columns*/
+section:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer*/
+footer{
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the tow columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
