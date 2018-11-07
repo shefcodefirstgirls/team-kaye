@@ -1,5 +1,5 @@
 header {
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 5px 0px;
   text-align: center;
   background-size: cover;
   font-size: 15px;
@@ -32,13 +32,11 @@ li.home {
 
 .parent {
   position: relative;
-  top: 0;
-  left: 0;
 }
 .image1 {
-  position: center, absolute;
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 0px;
+  left: 100px;
 }
 .singapore {
   position: absolute;
@@ -69,5 +67,14 @@ figcaption{
 
 
 footer {
+  padding: 20px 20px 20px 20px;
 text-align: center;
+position:absolute;
+bottom: -60px;
+left: 600px ;
+}
+
+footer a{
+
+  padding: 2px;
 }
