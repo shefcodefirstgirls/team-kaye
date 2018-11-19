@@ -5,16 +5,28 @@ header {
   font-size: 15px;
   font-family: 'Roboto Mono', cursive;
 }
+
+header.vietnam{
+  background: url("vietnam_background.jpg");
+  background-size: cover;
+}
 a {
   color: navy;
+}
+h2{
+  font-family: 'Roboto Mono' cursive;
+  font-size:15px;
 }
 
 body {
 text-align: center;
 }
 
+li{
+  background-color:white;
+}
 
-li {
+li{
   display: inline;
  padding: 10px 10px 10px 10px;
  background-image: url("https://i.imgur.com/Fdnnrxj.jpg");
@@ -28,6 +40,10 @@ li {
 li.home {
   font-size: 20px;
   font-style: strong;
+}
+
+ul.vietnam{
+  background: none;
 }
 
 .parent {
@@ -57,14 +73,81 @@ left: 640px;
 
 }
 
-figure{
-  display:inline-block;
+.container{
+  display: block;
+
 }
-figcaption{
+
+.col-md-4{
+  position: relative;
+  top: 50px;
+  left: 0;
+  font-size:15px;
+padding: 0px 0px 40px 0px;
+text-align: center;
+color: black;
+}
+
+
+
+.person{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top:50px;
+  z-index:20px;
+  border-radius:90px;
+  border: solid white 3px;
+  margin: 0px 0px 60px 0px;
+
+}
+.figure{
+  position: relative;
+  margin-top:300px;
+  padding:40px;
+}
+.splatter{
+  position:absolute;
+  display: center;
+  height:450px;
+  width:450px;
+  top:-110px;
+  left:-40px;
+  z-index: -20;
+}
+
+.figcaption {
+  display: block;
+  position: absolute;
+font-size: 20px;
+  top: 100px;
+}
+
+.countrydes{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top:50px;
+  z-index:20px;
+  border-radius:0px;
+  border: solid white 3px;
+  margin: 0px 0px 60px 0px;
+
+}
+
+.country {
+  position: relative;
   text-align: center;
+  color: white;
+font-size: 70px;}
+
+
+.center {
+    position: absolute;
+    top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 }
-
-
 
 footer {
   padding: 20px 20px 20px 20px;
