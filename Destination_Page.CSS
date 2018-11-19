@@ -132,13 +132,20 @@ div.transbox p {
     margin: 5%;
     font-weight: bold;
     color: #000000;
+}
 
 /* Style the footer*/
-footer{
+footer {
   background-color: #777;
   padding: 10px;
   text-align: center;
   color: white;
+}
+
+/* Fixed, non-scrolling map on the left column */
+.fixed-map {
+  position: sticky;
+  top: 0;
 }
 
 /* Responsive layout - makes the tow columns/boxes stack on top of each other instead of next to each other, on small screens */
