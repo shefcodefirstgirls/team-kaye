@@ -1,0 +1,130 @@
+header {
+  padding: 20px 0px 5px 0px;
+  text-align: center;
+  background-size: cover;
+  font-size: 15px;
+  font-family: 'Roboto Mono', cursive;
+  position: fixed;
+  z-index: +3;
+  text-align: center;
+top: 0;
+  width: 100%;
+}
+
+a {
+  color: navy;
+}
+h2{
+  font-family: 'Roboto Mono' cursive;
+  font-size:15px;
+}
+
+body {
+text-align: center;
+}
+
+li{
+  background-color:white;
+}
+
+li{
+  display: inline;
+ padding: 10px 10px 10px 10px;
+ background-image: url("https://i.imgur.com/Fdnnrxj.jpg");
+ background-size:auto;
+ background-position: center;
+ position:relative;
+ border-width: thin;
+ border-radius: 10px;
+}
+
+li.home {
+  font-size: 20px;
+  font-style: strong;
+}
+
+ul.vietnam{
+  background: none;
+}
+
+
+
+.container{
+  display: block;
+
+
+}
+
+.col-md-4{
+  position: relative;
+  top: 50px;
+  left: 0;
+  font-size:15px;
+padding: 0px 0px 40px 0px;
+text-align: center;
+color: black;
+}
+
+
+
+.person{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top:50px;
+  z-index:20px;
+  border-radius:90px;
+  border: solid white 3px;
+  margin: 0px 0px 60px 0px;
+
+}
+.figure{
+  position: relative;
+  margin-top:300px;
+  padding:40px;
+}
+.splatter{
+  position:absolute;
+  display: center;
+  height:450px;
+  width:450px;
+  top:-110px;
+  left:-40px;
+  z-index: -20;
+}
+
+.figcaption {
+  display: block;
+  position: absolute;
+font-size: 20px;
+  top: 100px;
+}
+
+
+
+footer {
+  padding: 20px 20px 20px 20px;
+  position:absolute;
+  bottom: 00px;
+  left: 600px ;
+
+      left: 0;
+      position: fixed;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+
+
+}
+
+footer a{
+
+  padding: 2px;
+}
+
+.contact-form{
+  padding: 20px;
+  text-align:center;
+  position: relative;
+  margin: 50px;
+}
