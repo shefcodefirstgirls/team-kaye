@@ -161,3 +161,8 @@ div.gallery img {
         display: table;
         clear: both;
     }
+
+#map{
+  height:500px;
+  width: 100%;
+}
