@@ -1,9 +1,19 @@
+
+
+
+
+
 header {
   padding: 20px 0px 5px 0px;
   text-align: center;
   background-size: cover;
   font-size: 15px;
   font-family: 'Roboto Mono', cursive;
+  position: fixed;
+  z-index: +3;
+  text-align: center;
+top: 0;
+  width: 100%;
 }
 
 
@@ -48,55 +58,45 @@ ul.vietnam{
 }
 .image1 {
   position: absolute;
-  top: 0px;
-  left: 100px;
+  top: 50px;
+  left: 0px;
   width: 1100px;
   height: 580px;
 }
 .singapore {
   position: absolute;
-  top: 350px;
-  left: 928px;
+  top: 400px;
+  left: 828px;
   }
 
 .vietnam {
   position: absolute;
-  top: 315px;
-  left: 940px;
+  top: 365px;
+  left: 840px;
 }
 
 .Switzerland {
 position: absolute;
-top: 200px;
-left: 625px;
+top: 250px;
+left: 525px;
 
 }
-
-.container{
-  display: block;
-
-
-}
-
-
 
 footer {
-  padding: 20px 20px 20px 20px;
-text-align: center;
+
+padding: 20px 20px 20px 20px;
 position:absolute;
-bottom: -100px;
+bottom: 00px;
 left: 600px ;
+
+    left: 0;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a{
 
   padding: 2px;
-}
-
-
-@media (max-width:500px) {
-  .img {
-    width: 100%;
-
-  }
 }
