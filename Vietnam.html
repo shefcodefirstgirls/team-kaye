@@ -10,7 +10,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+
+<body class="vietnam">
 <header class="vietnam">
   <p> Vietnam </p>
 </header>
@@ -27,13 +28,13 @@
         <div class="col-lg-6 fixed-map">
           <div id="googleMap" style="width:100%;height:400px;"></div>
           <script>
-            function myMap() {
-              var mapProp= {
-              center:new google.maps.LatLng(16.06778, 108.22083),
-              zoom:5,
-              };
-              var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-            }
+          function myMap() {
+            var mapProp= {
+            center:new google.maps.LatLng(16.06778, 108.22083),
+            zoom:5,
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          }
           </script>
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnowulm8bocwUWSN2f7PLrt0o1QnXawp0&callback=myMap"></script>
         </div>
@@ -64,9 +65,7 @@
               <li>Activities: tubing and wakeboarding, rock climbing, floating villages, kayaking tour, bioluminescent plankton</li>
             </ul>
             <p>Transport Included</p>
-            </div>
 
-            <div class ="central">
             <h2>Hue</h2>
             <ul class ="vietnam">
               <li>Breakfast: Why Not Hostel</li>
@@ -85,9 +84,7 @@
               <li>Activity: An Bang Beach</li>
               <li>Dinner: Restaurant 328</li>
             </ul>
-            </div>
 
-            <div class="south">
               <h2>Da Lat</h2>
               <ul>
                 <li>Breakfast: Tiny Tigers Hostel</li>

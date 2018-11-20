@@ -10,6 +10,14 @@ body {
   text-align: center;
 }
 
+body.vietnam {
+  background-image: url('vietnam_background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
 
 #directions {
   background-color: #6FE87A;
