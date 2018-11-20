@@ -11,7 +11,7 @@ body {
 }
 
 body.vietnam {
-  background-image: url('rice_fields.jpg');
+  background-image: url('vietnam_background.jpg');
   background-size: cover;
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
@@ -28,13 +28,19 @@ header {
   padding: 20px;
   font-style: strong;
   text-align: center;
+  margin: auto;
   font-size: 30px;
   font-family: 'Roboto Mono', cursive;
   background-position: 1% 30%;
   background-repeat: no-repeat;
 }
 
-/* Styling the Header*/
+  .TitleText{
+  font-size: 80px;
+  font-family: 'Allerta Stencil';
+  text-align: center;
+}
+
 navigation {
   padding: 10px;
   text-align: center;
@@ -46,8 +52,6 @@ navigation {
 a {
   color: navy;
 }
-
-
 
 li.navigation {
   display: inline;
@@ -94,6 +98,17 @@ li.home {
     left: 640px;
   }
 
+  .person{
+    width: 200px;
+    height: 200px;
+    top:60px;
+    z-index:20px;
+    border-radius:90px;
+    border: solid white 3px;
+    margin: 0px 0px 60px 0px;
+    float: right;
+}
+
   figure{
     display:inline-block;
   }
@@ -104,9 +119,8 @@ li.home {
 
 div.transbox {
     margin: 30px;
-    background: rgba(169, 169, 169, 0.6);
-    color:black;
-    font-weight:bold;
+    font-weight: bold;
+    background: rgba(155, 155, 155, 0.6);
 
 
 /* Style the footer*/
@@ -142,32 +156,25 @@ they will be displayed on top of one another rather than side-by-side */
     height: auto;
     position: relative;
   }
-} */
-
-/* @media (max-width: 200px){
-  .left {
-    height:50%;
-    position: absolute;
-  }
-  .right {
-    height:50%;
-  }
-}*/
-
-div.gallery img {
-    width: 100%;
-    height: auto;
 }
 
-
+/*
 .responsive {
+    position: unset;
     padding: 0 6px;
     float: left;
     width: 24.99999%;
+}
+    @media only screen and (max-width: 700px){
+      .responsive {
+        width: 100%;
+        margin: 6px 0;
+      }
+    }
 
     @media only screen and (max-width: 700px) {
         .responsive {
-            width: 49.99999%;
+            width: 100%;
             margin: 6px 0;
         }
     }
@@ -176,7 +183,7 @@ div.gallery img {
         .responsive {
             width: 100%;
         }
-    }
+    } */
 
     .clearfix:after {
         content: "";
@@ -187,10 +194,4 @@ div.gallery img {
 #map{
   height:500px;
   width: 100%;
-}
-#carousel{
-  border: white;
-  border-radius: 10px;
-  padding: 15px;
-  margin: 15px;
 }
