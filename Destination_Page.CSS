@@ -36,9 +36,38 @@ header {
 }
 
   .TitleText{
-  font-size: 80px;
+  font-size: 100px;
   font-family: 'Allerta Stencil';
   text-align: center;
+}
+
+.Cousine_TitleText{
+  font-size: 40px;
+  font-family: 'Cousine';
+}
+
+.Cousine_Text{
+  font-size: 15px;
+  font-family: 'Cousine';
+}
+
+.ParagraphText{
+  font-size: 20px;
+  font-family: 'Source Sans Pro';
+}
+
+.ParagraphHeader{
+  font-size: 30px;
+  font-family: 'Black Han Sans';
+}
+
+.ParagraphSubHeader{
+  font-size: 25px;
+  font-family: 'Black Han Sans';
+}
+
+.Bump{
+  text-indent: 100px;
 }
 
 navigation {
@@ -70,32 +99,6 @@ li.home {
 
   .parent{
     position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  .singapore {
-    position: absolute;
-    top: 350px;
-    left: 950px;
-  }
-
-  .Vietnam {
-    position: absolute;
-    top: 315px;
-    left: 965px;
-  }
-
-  .Switzerland {
-    position: absolute;
-    top: 200px;
-    left: 640px;
   }
 
   .person{
@@ -106,7 +109,9 @@ li.home {
     border-radius:90px;
     border: solid white 3px;
     margin: 0px 0px 60px 0px;
-    float: right;
+    position: absolute;
+    right: 80px;
+    position: fixed;
 }
 
   figure{
