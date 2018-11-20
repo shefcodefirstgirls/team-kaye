@@ -41,7 +41,7 @@ a {
 
 
 
-li {
+li.navigation {
   display: inline;
   padding: 10px 10px 10px 10px;
   background-image: url("https://i.imgur.com/Fdnnrxj.jpg");
