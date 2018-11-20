@@ -170,3 +170,56 @@ footer a{
   position: relative;
   margin: 50px;
 }
+
+.Australia{
+  position: relative;
+  text-align: center;
+  font-size:50px;
+  color: white;
+  font-weight: strong;
+}
+.Africa{
+  position: relative;
+  text-align: center;
+  font-size:50px;
+  color: white;
+  font-weight: strong;
+}
+.Asia{
+  position: relative;
+  text-align: center;
+  font-size:50px;
+  color: white;
+  font-weight: strong;
+}
+.Europe{
+  position: relative;
+  text-align: center;
+  font-size:50px;
+  color: white;
+  font-weight: strong;
+}
+.South-America{
+  position: relative;
+  text-align: center;
+  font-size:50px;
+  color: white;
+  font-weight: strong;
+}
+.North-America{
+  position: relative;
+  text-align: center;
+  font-size:50px;
+  color: white;
+  font-weight: strong;
+}
+.centered{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+  font-size: 16px;
+}
