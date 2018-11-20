@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  padding: 15px;
+  padding: 20px;
   font-style: strong;
   text-align: center;
   font-size: 30px;
@@ -95,27 +95,8 @@ li.home {
 
 
 
-/* Creates two boxes that size next to one another*/
-nav {
-  float: left;
-  width: 50%;
-  /* background: #C188E5; */
-  padding: 20px;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 50%;
-  background-color: "white";
-  border-width: thick;
-  border-radius: 10px;
-  border-color: #6FE8DD;
-
-}
-
 /* Clears the floats after the columns*/
-section:after{
+col-lg-6 fixed-map:after{
   content: "";
   display: table;
   clear: both;
@@ -136,7 +117,7 @@ div.transbox p {
 
 /* Style the footer*/
 footer {
-/*  background-color: #777; */
+  /* background-color: #777; */ 
   padding: 10px;
   text-align: center;
   color: white;
