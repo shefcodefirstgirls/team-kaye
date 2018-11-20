@@ -174,3 +174,9 @@ div.gallery img {
   height:500px;
   width: 100%;
 }
+#carousel{
+  border: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+}
