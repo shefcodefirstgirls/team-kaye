@@ -89,38 +89,23 @@ li.home {
   figure{
     display:inline-block;
   }
+
   figcaption{
     text-align: center;
   }
 
-
-
-/* Clears the floats after the columns*/
-col-lg-6 fixed-map:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 div.transbox {
     margin: 30px;
-    background-color: #ffffff;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-div.transbox p {
-    margin: 5%;
     font-weight: bold;
-    color: #000000;
-}
+    background: rgba(155, 155, 155, 0.6);
+
 
 /* Style the footer*/
-footer {
-  /* background-color: #777; */ 
+/* footer {
+  background-color: #777;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: white;*/
 }
 
 /* Fixed, non-scrolling map on the left column */
@@ -130,13 +115,13 @@ footer {
 }
 
 /* Responsive layout - makes the tow columns/boxes stack on top of each other
-instead of next to each other, on small screens */
+instead of next to each other, on small screens
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
     height: auto;
   }
-}
+}*/
 
 /* Makes the tables responsive so that when theya re displayed on a small screen
 they will be displayed on top of one another rather than side-by-side */
@@ -147,16 +132,11 @@ they will be displayed on top of one another rather than side-by-side */
   }
 }
 
-/* div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
-} */
+}
 
-/*div.desc {
-    padding: 15px;
-    text-align: center;
-}
-}
 
 .responsive {
     padding: 0 6px;
