@@ -136,7 +136,7 @@ div.transbox p {
 
 /* Style the footer*/
 footer {
-  background-color: #777;
+/*  background-color: #777; */
   padding: 10px;
   text-align: center;
   color: white;
@@ -148,9 +148,19 @@ footer {
   top: 0;
 }
 
-/* Responsive layout - makes the tow columns/boxes stack on top of each other instead of next to each other, on small screens */
+/* Responsive layout - makes the tow columns/boxes stack on top of each other
+instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Makes the tables responsive so that when theya re displayed on a small screen
+they will be displayed on top of one another rather than side-by-side */
+@media (max-width: 600px) {
+  col-lg-6 fixed-map, col-lg-6 {
     width: 100%;
     height: auto;
   }
