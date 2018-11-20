@@ -53,23 +53,25 @@ ul.vietnam{
   position: absolute;
   top: 0px;
   left: 100px;
+  width: 1100px;
+  height: 580px;
 }
 .singapore {
   position: absolute;
   top: 350px;
-  left: 950px;
+  left: 928px;
   }
 
 .vietnam {
   position: absolute;
   top: 315px;
-  left: 965px;
+  left: 940px;
 }
 
 .Switzerland {
 position: absolute;
 top: 200px;
-left: 640px;
+left: 625px;
 
 }
 
