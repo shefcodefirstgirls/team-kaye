@@ -66,8 +66,9 @@ header {
   font-family: 'Black Han Sans';
 }
 
-.Bump{
-  text-indent: 100px;
+.ParagraphSignOff{
+  font-size: 28px;
+  font-family: 'Sedgwick Ave';
 }
 
 navigation {
@@ -111,7 +112,6 @@ li.home {
     margin: 0px 0px 60px 0px;
     position: absolute;
     right: 80px;
-    position: fixed;
 }
 
   figure{
