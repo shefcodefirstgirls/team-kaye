@@ -52,10 +52,12 @@
           <div id="googleMap" style="width:100%;height:400px;"></div>
           <script>
           function myMap() {
-            var Singapore={lat:1.3521, lng:103.8198};
+            var Singapore={lat:1.2816, lng:103.8636};
+            var Treetop_Walk={lat:1.3607, lng:103.8125};
+            var Kinki={lat:1.2826, lng:103.8534};
 
             var map=new google.maps.Map(document.getElementById("googleMap"), {
-              zoom: 5,
+              zoom: 11,
               center:Singapore,
             });
 
@@ -63,6 +65,16 @@
               position:Singapore,
               map:map,
               title:'Singapore'
+            });
+            var marker = new google.maps.Marker({
+              position:Treetop_Walk,
+              map:map,
+              title:'Treetop_Walk'
+            });
+            var marker = new google.maps.Marker({
+              position:Kinki,
+              map:map,
+              title:'Kinki'
             });
           }
           </script>

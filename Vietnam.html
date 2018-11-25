@@ -54,11 +54,11 @@
           function myMap() {
             var Hanoi={lat:21.0278, lng:105.8342};
             var Hue={lat:16.4637, lng:107.5909};
-            var Mai Chau={lat:20.6901, lng:105.0090};
-            var Ha Long Bay={lat:20.9101, lng:107.1839};
-            var Hoi An={lat:15.8801, lng:108.3380};
-            var Da Lat={lat:11.9404, lng:108.4583};
-            var Ho Chi Minh={lat:10.8231, lng:106.6297};
+            var Mai_Chau={lat:20.6901, lng:105.0090};
+            var Ha_Long_Bay={lat:20.9101, lng:107.1839};
+            var Hoi_An={lat:15.8801, lng:108.3380};
+            var Da_Lat={lat:11.9404, lng:108.4583};
+            var Ho_Chi_Minh={lat:10.8231, lng:106.6297};
 
 /*            var mapProp= {
             center:new google.maps.LatLng(16.06778, 108.22083),
@@ -66,7 +66,7 @@
           }; */
             var map=new google.maps.Map(document.getElementById("googleMap"), {
               zoom: 5,
-              center:Hanoi,
+              center:Hoi_An,
             });
 
             var marker = new google.maps.Marker({
@@ -80,29 +80,29 @@
               title:'Hue'
             });
             var marker = new google.maps.Marker({
-              position:Mai Chau,
+              position:Mai_Chau,
               map:map,
-              title:'Mai Chau'
+              title:'Mai_Chau'
             });
             var marker = new google.maps.Marker({
-              position:Ha Long Bay,
+              position:Ha_Long_Bay,
               map:map,
-              title:'Ha Long Bay'
+              title:'Ha_Long_Bay'
             });
             var marker = new google.maps.Marker({
-              position:Hoi An,
+              position:Hoi_An,
               map:map,
-              title:'Hoi An'
+              title:'Hoi_An'
             });
             var marker = new google.maps.Marker({
-              position:Da Lat,
+              position:Da_Lat,
               map:map,
-              title:'Da Lat'
+              title:'Da_Lat'
             });
             var marker = new google.maps.Marker({
-              position:Ho Chi Minh,
+              position:Ho_Chi_Minh,
               map:map,
-              title:'Ho Chi Minh'
+              title:'Ho_Chi_Minh'
             });
           }
           </script>
