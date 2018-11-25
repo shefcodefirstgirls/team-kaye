@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url('Swiss.jpg');
+  background-image: url('https://imgur.com/ahRMjfO.jpg');
   background-size: cover;
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +86,7 @@ a {
 li.navigation {
   display: inline;
   padding: 10px 10px 10px 10px;
-  background-image: url("https://i.imgur.com/Fdnnrxj.jpg");
+  background-image: url("https://imgur.com/FXNoHj3.jpg");
   background-size: auto;
   background-position: center;
   border-width: thin;
@@ -125,8 +125,9 @@ li.home {
 div.transbox {
     margin: 30px;
     font-weight: bold;
-    background: rgba(218, 232, 231, 0.6);
-    /*background: rgba(155, 155, 155, 0.6);*/
+    background: rgba(217, 225, 225, 0.8);
+    /*background: rgba(218, 232, 231, 0.8);
+    background: rgba(155, 155, 155, 0.6);*/
 
 
 /* Style the footer*/
@@ -151,14 +152,6 @@ div.transbox {
   }
 }
 
-/* Responsive layout - makes the tow columns/boxes stack on top of each other
-instead of next to each other, on small screens
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}*/
 
 /* Makes the tables responsive so that when they are displayed on a small screen
 they will be displayed on top of one another rather than side-by-side */
