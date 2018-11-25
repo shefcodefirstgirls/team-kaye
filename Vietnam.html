@@ -49,16 +49,48 @@
 <!-- -->
 
 
+<!--attempt at a dropdown menu for the Destinations section
+<div class="navbar">
+  <a href="About_Us.html">ABOUT US</a>
+  <a href="index.html">HOME</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">DESTINATIONS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="New_Switzerland.html">Switzerland</a>
+      <a href="Vietnam.html">Vietnam</a>
+      <a href="#">Singapore</a>
+    </div>
+  </div>
+</div>
 
-<!--attempt at a dropdown menu for the Destinations section-->
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-
-
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6">
           <div class="transbox">
+            <div class="ParagraphHeader">
             <h2>Hanoi</h2>
+          </div>
+          <div class="ParagraphText">
             <ul class ="vietnam">
               <li>Breakfast: Old Quarter view Hostel</li>
               <li>Activity: Train Street, Hoan Kiem Lake</li>
@@ -69,22 +101,31 @@
               <li>Dinner: Old quarter view hostel</li>
             </ul>
             <p>Onward Travel: night bus organised through <a href="https://12go.asia/en" title="12goAsia" alt="12goAsia">12goAsia</a></p>
-
+          </div>
+          <div class="ParagraphHeader">
             <h2>Mai Chau</h2>
+          </div>
+          <div class="ParagraphText">
             <ul class ="vietnam">
               <li>Breakfast, Lunch Dinner: included with trip cost at Homestay via <a href= "https://www.vietnambackpackerhostels.com/explore/mai-chau-valley" title="Vietnam Backpacker Hostel" alt="Vietnam Backpacker Hostel">Vietnam Backpacker Hostels</a></li>
               <li>Activities: bike tour, bamboo factory, trek through local minority tribe villages, pillion bike ride to a lake</li>
             </ul>
             <p>Transport Included</p>
-
+          </div>
+          <div class="ParagraphHeader">
             <h2>Ha Long Bay - Castaways Island</h2>
+          </div>
+          <div class="ParagraphText">
             <ul class ="vietnam">
               <li>Breakfast, Lunch, Dinner: included with trip cost via <a href= "https://www.vietnambackpackerhostels.com/explore/castaways-island" title="Vietnam Backpacker Hostel" alt="Vietnam Backpacker Hostel">Vietnam Backpacker Hostels</a></li>
               <li>Activities: tubing and wakeboarding, rock climbing, floating villages, kayaking tour, bioluminescent plankton</li>
             </ul>
             <p>Transport Included</p>
-
+          </div>
+          <div class="ParagraphHeader">
             <h2>Hue</h2>
+          </div>
+          <div class="ParagraphText">
             <ul class ="vietnam">
               <li>Breakfast: Why Not Hostel</li>
               <li>Activity: Abandoned water park and bunker hill (VBH motorbike tour)</li>
@@ -93,8 +134,11 @@
               <li>Dinner: Nook</li>
             </ul>
             <p>Onward Travel: rent bikes and drive – Hai Van Pass (especially Marble Mountain – avoid elephant springs)</p>
-
+          </div>
+          <div class="ParagraphHeader">
             <h2>Hoi An</h2>
+          </div>
+          <div class="ParagraphText">
             <ul class ="vietnam">
               <li>Breakfast: Vietnam backpackers hostel Hoi An</li>
               <li>Activity: Bike tour of Hoi An</li>
@@ -102,8 +146,11 @@
               <li>Activity: An Bang Beach</li>
               <li>Dinner: Restaurant 328</li>
             </ul>
-
+          </div>
+          <div class="ParagraphHeader">
               <h2>Da Lat</h2>
+            </div>
+          <div class="ParagraphText">
               <ul>
                 <li>Breakfast: Tiny Tigers Hostel</li>
                 <li>Activity: Da Lat Motorbike Adventures</li>
@@ -111,7 +158,11 @@
                 <li>Activity: Crazy House and MAZE bar</li>
                 <li>Dinner: Oz Burgers</li>
               </ul>
+            </div>
+            <div class="ParagraphHeader">
               <h2>Ho Chi Minh</h2>
+            </div>
+            <div class="ParagraphText">
               <ul>
                 <li>Breakfast: Little Hanoi Egg Coffee</li>
                 <li>Activity: CuChi tunnels tour</li>
@@ -119,6 +170,7 @@
                 <li>Activity: War remnants museum</li>
                 <li>Dinner: Secret Garden</li>
               </ul>
+            </div>
             </p>
             </div>
             <div class="transbox">
