@@ -142,14 +142,14 @@ div.transbox {
 
 
 /* Fixed, non-scrolling map on the left column */
-.fixed-map {
+/*.fixed-map {
   position: sticky;
   top: 0;
-}
+} */
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
   .fixed-map{
-    display:sticky;
+    position:sticky;
     top:0;
   }
 }
