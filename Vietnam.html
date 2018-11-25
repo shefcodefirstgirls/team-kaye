@@ -49,11 +49,40 @@
 <!-- -->
 
 
+<!--attempt at a dropdown menu for the Destinations section
+<div class="navbar">
+  <a href="About_Us.html">ABOUT US</a>
+  <a href="index.html">HOME</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">DESTINATIONS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="New_Switzerland.html">Switzerland</a>
+      <a href="Vietnam.html">Vietnam</a>
+      <a href="#">Singapore</a>
+    </div>
+  </div>
+</div>
 
-<!--attempt at a dropdown menu for the Destinations section-->
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-
-
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6">
