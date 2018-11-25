@@ -32,6 +32,10 @@ header {
   font-family: 'Roboto Mono', cursive;
 }
 
+a {
+  color: navy;
+}
+
 .TitleText{
 
   text-align: center;
