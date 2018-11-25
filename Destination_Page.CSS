@@ -43,6 +43,10 @@ a {
   font-family: 'Allerta Stencil';
 
   }
+  @media (max-width:600px){
+    .TitleText{
+      font-size:50px;
+  }}
 
 .Cousine_TitleText{
   font-size: 40px;
