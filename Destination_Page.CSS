@@ -27,13 +27,7 @@ body.vietnam {
   padding: 10px;
 }
 
-header {
-  padding: 20px 0px 5px 0px;
-  text-align: center;
-  background-size: cover;
-  font-size: 15px;
-  font-family: 'Roboto Mono', cursive;
-}
+
 
 a {
   color: navy;
@@ -87,8 +81,15 @@ navigation {
   padding: 10px;
   text-align: center;
   font-size: 16px;
-  font-weight: bold;
-  font-family: 'Roboto Mono', cursive;
+  font-family: 'Roboto Mono';
+}
+
+header {
+  padding: 20px 0px 5px 0px;
+  text-align: center;
+  background-size: cover;
+  font-size: 15px;
+  font-family: 'Roboto Mono';
 }
 
 a {
