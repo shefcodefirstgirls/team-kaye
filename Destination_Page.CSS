@@ -4,10 +4,12 @@
 
 body {
   background-image: url('https://imgur.com/ahRMjfO.jpg');
+  height: 100%
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-repeat: no-no-repeat;
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
