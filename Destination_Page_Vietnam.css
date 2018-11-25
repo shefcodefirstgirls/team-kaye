@@ -33,17 +33,11 @@ body.vietnam {
   font-family: 'Cousine';
   color: black;
 }}
-@media (min width:200px max-width: 1000px){
+@media (max-width: 800px){
   .Cousine_TitleText {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Cousine';
     color: white;
-  }}
-@media (max-width: 200px){
-  .Cousine_TitleText {
-    font-size: 40px;
-    font-family: 'Cousine';
-    color: black;
   }}
 
 .container-fluid {
@@ -157,5 +151,9 @@ they will be displayed on top of one another rather than side-by-side */
 #googleMap{
   height:500px;
   width: 100%;
-  padding-left:40px;
+  margin-left:30px;
+}
+
+html,body{
+  overflow-x: hidden;
 }

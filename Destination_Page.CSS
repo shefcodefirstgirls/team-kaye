@@ -168,3 +168,6 @@ they will be displayed on top of one another rather than side-by-side */
   height:500px;
   width: 100%;
 }
+html,body{
+  overflow-x: hidden;
+}

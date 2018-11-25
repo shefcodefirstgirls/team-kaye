@@ -159,3 +159,6 @@ they will be displayed on top of one another rather than side-by-side */
   width: 100%;
   padding-left:40px;
 }
+html,body{
+  overflow-x: hidden;
+}
