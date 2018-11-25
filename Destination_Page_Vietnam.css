@@ -41,10 +41,18 @@ header {
   text-align: center;
 }
 
+@media (min-width: 600px){
 .Cousine_TitleText{
   font-size: 40px;
   font-family: 'Cousine';
   color: black;
+}}
+@media (max-width: 1000px){
+  .Cousine_TitleText {
+    font-size: 40px;
+    font-family: 'Cousine';
+    color: white;
+  }
 }
 
 .container-fluid {
@@ -113,7 +121,7 @@ li.home {
     .person{
       width: 200px;
       height: 200px;
-      border-radius:90px;
+      border-radius:100px;
       border: solid white 3px;
           position: center;
           text-align: center;
@@ -150,14 +158,9 @@ div.transbox {
 
 
 /* Fixed, non-scrolling map on the left column */
-.fixed-map {
-  position: sticky;
-  top: 0;
-}
-
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
   .fixed-map{
-    display:sticky;
+    position:sticky;
     top:0;
   }
 }
@@ -172,13 +175,6 @@ they will be displayed on top of one another rather than side-by-side */
     position: relative;
   }
 }
-@media screen (max-wdith: 600px){
-  .Cousine_TitleText {
-    color: white;
-  }
-}
-
-
 
     .clearfix:after {
         content: "";
@@ -186,7 +182,8 @@ they will be displayed on top of one another rather than side-by-side */
         clear: both;
     }
 
-#map{
+#googleMap{
   height:500px;
   width: 100%;
+  padding-left:40px;
 }

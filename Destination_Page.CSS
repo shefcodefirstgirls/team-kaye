@@ -109,7 +109,7 @@ li.home {
   .person{
     width: 200px;
     height: 200px;
-    border-radius:90px;
+    border-radius:100px;
     border: solid white 3px;
         position: center;
         text-align: center;
