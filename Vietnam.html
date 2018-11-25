@@ -58,13 +58,13 @@
           }; */
           var Hanoi={lat:21.0278, lng:105.8342};
           var map=new google.maps.Map(document.getElementById("googleMap"),{
-              zoom:5
+              zoom:5,
               center:Hanoi
             });
 
        var marker = new google.maps.Marker({
               position:Hanoi;
-              map:map,
+              map:googleMap,
               title:'Hanoi'
             });
             marker.setMap(googleMap);
