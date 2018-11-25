@@ -131,37 +131,13 @@ div.transbox {
     /*background: rgba(218, 232, 231, 0.8);
     background: rgba(155, 155, 155, 0.6);*/
 
-
-/* Style the footer*/
-/* footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;*/
 }
-
-
-/* Fixed, non-scrolling map on the left column */
-/*.fixed-map {
-  position: sticky;
-  top: 0;
-} */
-
 @media screen and (min-width: 1200px){
   .fixed-map{
     position:sticky;
     top:0;
   }
-}
-
-
-
-
-
-
-
-
-
+}}
 
 /* Makes the tables responsive so that when they are displayed on a small screen
 they will be displayed on top of one another rather than side-by-side */
@@ -171,36 +147,8 @@ they will be displayed on top of one another rather than side-by-side */
     height: auto;
     position: relative;
   }
-
 }
 
-
-/*
-.responsive {
-    position: unset;
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-    @media only screen and (max-width: 700px){
-      .responsive {
-        width: 100%;
-        margin: 6px 0;
-      }
-    }
-
-    @media only screen and (max-width: 700px) {
-        .responsive {
-            width: 100%;
-            margin: 6px 0;
-        }
-    }
-
-    @media only screen and (max-width: 500px) {
-        .responsive {
-            width: 100%;
-        }
-    } */
 
     .clearfix:after {
         content: "";
