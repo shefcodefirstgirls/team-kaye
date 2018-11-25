@@ -4,11 +4,10 @@
 
 body {
   background-image: url('https://imgur.com/ahRMjfO.jpg');
-  height: 100%
   background-size: cover;
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   background-repeat: no-no-repeat;
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
@@ -117,8 +116,8 @@ li.home {
 
 
   .person{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius:100px;
     border: solid white 3px;
         position: center;
