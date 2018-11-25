@@ -22,6 +22,10 @@ body.vietnam {
   font-family: 'Allerta Stencil';
   text-align: center;
 }
+@media (max-width:700px){
+  .TitleText{
+    font-size:50px;
+}}
 
 @media (min-width: 600px){
 .Cousine_TitleText{
@@ -29,7 +33,13 @@ body.vietnam {
   font-family: 'Cousine';
   color: black;
 }}
-@media (max-width: 1000px){
+@media (min width:200px max-width: 1000px){
+  .Cousine_TitleText {
+    font-size: 40px;
+    font-family: 'Cousine';
+    color: white;
+  }}
+@media (max-width: 200px){
   .Cousine_TitleText {
     font-size: 40px;
     font-family: 'Cousine';
