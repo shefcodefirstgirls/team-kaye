@@ -56,22 +56,8 @@ ul.vietnam{
   width: 1100px;
   height: 580px;
 }
-.singapore {
-  position: absolute;
-  top: 350px;
-  left: 928px;
-  }
 
-.vietnam {
-  position: absolute;
-  top: 315px;
-  left: 940px;
-}
 
-.Switzerland {
-position: absolute;
-top: 200px;
-left: 625px;
 
 }
 
@@ -92,38 +78,10 @@ color: black;
 
 
 
- .person{
-  width: 150px;
-  height: 150px;
-  position: relative;
-  top:50px;
-  z-index:20px;
-  border-radius:90px;
-  border: solid white 3px;
-  margin: 0px 0px 60px 0px;
+
 
 }
-.figure{
-  position: relative;
-  margin-top:300px;
-  padding:40px;
-}
-.splatter{
-  position:absolute;
-  display: center;
-  height:450px;
-  width:450px;
-  top:-110px;
-  left:-40px;
-  z-index: -20;
-}
 
-.figcaption {
-  display: block;
-  position: absolute;
-font-size: 20px;
-  top: 100px;
-}
 
 .countrydes{
   width: 300px;
@@ -164,12 +122,6 @@ footer a{
   padding: 2px;
 }
 
-.contact-form{
-  padding: 20px;
-  text-align:center;
-  position: relative;
-  margin: 50px;
-}
 
 .Australia{
   position: relative;
@@ -222,4 +174,19 @@ footer a{
 
 p {
   font-size: 16px;
+}
+
+
+
+footer {
+  padding: 50px 20px 20px 20px;
+  position:absolute;
+  bottom: 50px;
+  left: 600px ;
+
+      left: 0;
+      position: fixed;
+      text-align: center;
+      bottom: -5px;
+      width: 100%;
 }
