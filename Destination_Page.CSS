@@ -43,6 +43,10 @@ a {
   font-family: 'Allerta Stencil';
 
   }
+  @media (max-width:700px){
+    .TitleText{
+      font-size:50px;
+  }}
 
 .Cousine_TitleText{
   font-size: 40px;
@@ -107,9 +111,9 @@ li.home {
 
 
   .person{
-    width: 200px;
-    height: 200px;
-    border-radius:90px;
+    width: 150px;
+    height: 150px;
+    border-radius:100px;
     border: solid white 3px;
         position: center;
         text-align: center;

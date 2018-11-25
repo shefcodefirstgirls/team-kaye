@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url('https://imgur.com/ahRMjfO.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
 body.vietnam {
   background-image: url('rice_fields.jpg');
   background-size: cover;
@@ -17,7 +9,6 @@ body.vietnam {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
 
 #directions {
   background-color: #6FE87A;
@@ -35,17 +26,24 @@ header {
   background-repeat: no-repeat;
 }
 
-  .TitleText{
+.TitleText{
   font-size: 100px;
   font-family: 'Allerta Stencil';
   text-align: center;
 }
 
+@media (min-width: 600px){
 .Cousine_TitleText{
   font-size: 40px;
   font-family: 'Cousine';
   color: black;
-}
+}}
+@media (max-width: 1000px){
+  .Cousine_TitleText {
+    font-size: 40px;
+    font-family: 'Cousine';
+    color: white;
+  }}
 
 .container-fluid {
   padding: 0px 0px 50px 0px;
@@ -98,70 +96,36 @@ li.navigation {
   border-radius: 10px;
 }
 
-
-
 li.home {
   font-size: 20px;
   font-style: strong;
 }
 
-  .parent{
-    position: relative;
-  }
+.parent{
+  position: relative;
+}
 
-
-    .person{
-      width: 200px;
-      height: 200px;
-      border-radius:90px;
-      border: solid white 3px;
-          position: center;
-          text-align: center;
-
-  }
-
-
-
-
-
-  figure{
-    display:inline-block;
-  }
-
-  figcaption{
-    text-align: center;
-  }
+.person{
+  width: 150px;
+  height: 150px;
+  border-radius:100px;
+  border: solid white 3px;
+  position: center;
+  text-align: center;
+}
 
 div.transbox {
     margin: 30px;
     font-weight: bold;
     background: rgba(217, 225, 225, 0.8);
-    /*background: rgba(218, 232, 231, 0.8);
-    background: rgba(155, 155, 155, 0.6);*/
-
-
-/* Style the footer*/
-/* footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;*/
 }
-
 
 /* Fixed, non-scrolling map on the left column */
-.fixed-map {
-  position: sticky;
-  top: 0;
-}
-
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
   .fixed-map{
-    display:sticky;
+    position:sticky;
     top:0;
-  }
-}
-
+  }}
 
 /* Makes the tables responsive so that when they are displayed on a small screen
 they will be displayed on top of one another rather than side-by-side */
@@ -170,23 +134,16 @@ they will be displayed on top of one another rather than side-by-side */
     width: 100%;
     height: auto;
     position: relative;
-  }
+  }}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
-@media screen (max-wdith: 600px){
-  .Cousine_TitleText {
-    color: white;
-  }
-}
 
-
-
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-#map{
+#googleMap{
   height:500px;
   width: 100%;
+  padding-left:40px;
 }
