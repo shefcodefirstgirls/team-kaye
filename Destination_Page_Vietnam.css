@@ -46,6 +46,10 @@ header {
   font-family: 'Cousine';
 }
 
+.container-fluid {
+  padding: 0px 0px 50px 0px;
+}
+
 .Cousine_Text{
   font-size: 15px;
   font-family: 'Cousine';
@@ -165,17 +169,20 @@ li.home {
     position: relative;
   }
 
-  .person{
-    width: 200px;
-    height: 200px;
-    top:60px;
-    z-index:20px;
-    border-radius:100px;
-    border: solid white 3px;
-    margin: 0px 0px 60px 0px;
-    position: absolute;
-    right: 80px;
-}
+
+    .person{
+      width: 200px;
+      height: 200px;
+      border-radius:90px;
+      border: solid white 3px;
+          position: center;
+          text-align: center;
+
+  }
+
+
+
+
 
   figure{
     display:inline-block;
